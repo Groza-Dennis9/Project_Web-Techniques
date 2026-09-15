@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <title> Misterul bujorilor </title>
+    <link rel="icon" type="image/png" href="Poze/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="description" content="pagina cu întrebări frecvente">
+    <meta name="keywords" content="bujori, întreţinere, tipuri, curiozităţi, contact, date personale">
+    <meta name="author" content="Groza Denisa-Georgiana">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Contact.css">
+    <script type="text/javascript" defer src="Contact.js"></script>
+    <script type="text/javascript" defer src="Logare.js"></script>
+</head>
+
+<!---<section style="text-align: center; margin-top: 20px;">
+    <svg width="50" height="50" viewBox="0 0 100 100">
+        <circle cx="50" cy="50" r="40" stroke="pink" stroke-width="4" fill="deeppink" />
+        <text x="50%" y="50%" text-anchor="middle" fill="white" dy=".3em">❤</text>
+    </svg>
+--->
+  </section>
+<body>
+    <header id="top">
+        <h1> Contact </h1>
+    </header>
+
+    <div id="link">
+      <p>Pentru întrebări legate de topica site-ului, este recomandat să citiţi secţiunea 
+        <a href="FAQ.html"> Întrebări frecvente </a>
+      </p>
+    </div>
+<main>
+    <div id="datec">
+      <aside id="contact">
+            <h3> Date de contact </h3>
+            <p> Număr de telefon: 0325467907 
+            <p> Email:
+                <a href="mailto:suport_bujori95@gmail.com">suport_bujori95@gmail.com </a>
+            </p>
+        </aside>
+        <aside id="social">
+            <h3> Pagini de socializare </h3>
+            <p> Facebook: 
+                <a href="https://www.facebook.com/FloriBujori/?locale=ro_RO" target="_blank"> FloriBujori </a>
+            </p>
+            <p> Instagram: 
+                <a href="https://www.instagram.com/gradinacubujori/?hl=en" target="_blank"> @Gradina cu bujori </a>
+            </p>
+        </aside>
+    </div>
+
+    <div class="formular">
+      <form>
+        <label for="nume">Nume:</label><br>
+        <input type="text" id="nume" required><br><br>
+
+        <label for="prenume">Prenume:</label><br>
+        <input type="text" id="prenume" required><br><br>
+  
+        <div id="gen">
+          <p>Gen:</p>
+            <input type="radio" id="M" value="M" name="Gen">
+            <label for="M">Masculin</label><br>
+            <input type="radio" id="F" value="F" name="Gen">
+            <label for="F">Feminin</label><br>
+            <input type="radio" id="N" value="N" name="Gen">
+            <label for="N">Nu doresc să menţionez</label> <br><br>
+        </div>
+
+        <label for="nivel">Care este nivelul dumneavoastră de cunoştinţă în domeniul grădinăritului?</label><br>
+                <select id="nivel">
+                   <option value="Redus"> Deţin cunoştinţe elementare / este un hobby </option>
+                   <option value="Mediu"> Deţin noţiuni de nivel mediu </option>
+                   <option value="Avansat"> Deţin cunoştinţe avansate </option>
+                </select> <br><br>
+
+        <label for="mesaj">Recenzia dumneavoastră:</label><br>
+        <textarea id="mesaj" rows="5" cols="50" required></textarea><br><br>
+
+        <button type="submit"> Trimite </button>
+      </form>
+    </div>
+
+    <canvas id="Canvas" width="500" height="100">
+    </canvas>
+
+    <section id="postari">
+    </section>
+</main>
+</body>
+
+</html>

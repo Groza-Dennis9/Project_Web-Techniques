@@ -1,0 +1,37 @@
+[
+    {
+        "sursa": "7.jpg",
+        "nume": "Bujorul singular!",
+        "text": "De obicei seamănă cu forma sălbatică cu 5 sau mai multe petale, stamine purtătoare de polen și carpele funcționale. Petalele în cultură pot avea până la 15 petale, dar totuși pot fi clasificate drept Singulare, cu o singură condiție: petalele să fie răspândite într-o formă de farfurie – în loc să fie în formă de cupă, ciufulite sau să dea impresia unei a treia dimensiuni vizibile, care au fost folosite pentru a justifica în schimb aplicarea clasificării Semi-Duble."
+    },
+
+    {
+        "sursa" : "8.jpg",
+        "nume" : "Bujorul semi-dublu!",
+        "text" : "În aceast tip sunt incluse destul de multe varietăţi. Ele au în comun stamine proeminente și o corolă bogată, prin combinații de trăsături: transformarea parțială a staminelor în petale interioare, multiplicarea petalelor sau structura petalelor care adaugă volum vizual florii."
+    },
+
+    {
+        "sursa" : "9.jpg",
+        "nume" : "Bujorul full-doublu!",
+        "text" : "În expresia supremă a acestei forme, toate staminele și carpelele sunt transformate în petale. Cu toate acestea, staminele sunt permise dacă aceastea sunt cu condiția ca acestea să fie obscure, fără separarea manuală a petalelor. Soiurile de bujor din această clasă sunt aproape întotdeauna cu anatomie în două etape (floare-în-floare), anatomia în două etape reprezintând cantitatea mai mare de petale văzută în Full-Doubles."
+    },
+
+    {
+        "sursa" : "10.jpg",
+        "nume" : "Bujorul japonez!",
+        "text" : "Bujorul japonez (Paeonia suffruticosa) este un bujor arbustiv, originar din China, apreciat pentru florile sale mari, parfumate, care apar în lunile mai-iunie. Se distinge prin structura unică a florilor, care au un strat simplu sau semidublu de petale în jurul unui grup proeminent de stamine galbene. Este o plantă perenă, rezistentă la frig, care poate ajunge la o înălțime de 1-3 metri."
+    },
+
+    {
+        "sursa" : "11.jpg",
+        "nume" : "Bujorul anemonă!",
+        "text" : "Transformarea staminei în formă de anemonă a progresat spre caracteristicile petalelor până în punctul în care toate dovezile vizibile ale originii staminei, cu excepția culorii galbene, au dispărut. Aceste structuri sunt denumite petaloide, fiind forma de tranziție între stamine și petalele interioare. Pe măsură ce dimensiunea crește, segmentele transformate devin mai lungi, mai largi și capătă textura și culoarea petalelor de gardă, ducând la forma florii Bomb."
+    },
+
+    {
+        "sursa" : "12.jpg",
+        "nume" : "Bujorul bomb!",
+        "text" : "Lățimea și lungimea până la care segmentele interioare pot ajunge s-au mărit în așa fel încât au devenit petale interioare, aproape întotdeauna de aceeași culoare ca și sepalele. Efectul general este o minge așezată pe o farfurie, placa fiind formată din sepale, iar petalele formând mingea."
+    }
+]

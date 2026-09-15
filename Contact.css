@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playwrite+HU:wght@100..400&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(Poze/botanical-illustration.png);
+    color:darkgreen;
+    font-family: "Libre Baskerville", serif;
+    line-height: 1.6;
+}
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
+
+a:hover{
+    color: red;
+}
+
+#link{
+    background-color:#7F2A36;
+    color: lightgoldenrodyellow;
+    text-align: center;
+    margin: 0 10%;
+    margin-top: 2%;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 1.2em;
+    animation: flick 0.5s infinite;
+}
+    #link  a{
+        font-weight: bold;
+    }
+    #link > p::before{
+        content: "‼️";
+        font-size: 1.5em;
+    }
+#top{
+    background-color: #7F2A36;
+    text-align: center;
+    border-top: 5px;
+    padding: 15px;
+}
+#top>h1{
+    font-family: "Caveat", cursive;
+    color:#FFE4E1;
+    font-size: 2.5em;
+}
+main{
+    background-color: lightgoldenrodyellow;
+    margin: 30px 15%;
+    padding: 20px;
+    border-radius: 15px;
+}
+#datec{
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 30px;
+    margin-bottom: 20px;
+    background-color:antiquewhite;
+    color:#7F2A36;
+    border-radius: 25px;
+    padding: 10px;
+}
+    #datec h3{
+        margin-bottom: 10px;
+    }
+.formular label:not(#button > label), #button > p {
+    font-weight: bold;
+}
+.formular{
+    text-align: center;
+}
+.class input {
+  width: 100px;
+}
+
+.postare-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(81, 6, 6, 0.523);
+    padding: 15px;
+    margin-bottom: 15px; 
+}
+p {
+    margin: 5px 0;
+}
+
+canvas{
+    margin-top: 5%;
+}
+
+@keyframes flick {
+    0%{
+        background-color: #ff3b55;
+    }
+    100%{
+        background-color:#7F2A36;
+    }
+}
+
+@media screen and (max-width:1200px){
+    main{
+        margin: 30px 5%;
+    }
+}
+@media screen and (max-width:850px){
+    main{
+        margin: 20px 5%;
+        padding: 10px;
+    }
+}
