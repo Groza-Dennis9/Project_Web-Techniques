@@ -1,4 +1,4 @@
-# Project_Web-Techniques
+# Peony Website
 ## ✨ About ✨
 - Implementation of a localhost website about peonies.
 
